@@ -1,0 +1,39 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories (if you’re using older Go versions or vendoring)
+vendor/
+
+# Build output directory (common convention)
+bin/
+build/
+
+# Temporary files
+*.log
+*.tmp
+*~
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Editor/IDE files
+*.swp       # Vim
+.idea/      # IntelliJ
+*.sublime-* # Sublime Text
+.vscode/    # VS Code (optional, remove if you want to track settings)
+
+# Go-specific ignores
+# Coverage profiles
+coverage.txt
+profile.cov
